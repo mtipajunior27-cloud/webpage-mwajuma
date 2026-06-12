@@ -22,8 +22,6 @@
             color: #333;
         }
 
-        /* HEADER */
-
         header {
             background: #0047cc;
             color: white;
@@ -39,8 +37,6 @@
             margin-top: 10px;
             font-size: 18px;
         }
-
-        /* NAVBAR */
 
         nav {
             background: #003399;
@@ -64,14 +60,11 @@
             color: yellow;
         }
 
-        /* HERO SECTION */
-
         .hero {
             height: 90vh;
             background:
                 linear-gradient(rgba(0, 0, 0, 0.5),
                     rgba(0, 0, 0, 0.5)),
-
                 url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=1200&auto=format&fit=crop');
 
             background-size: cover;
@@ -81,7 +74,6 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-
             color: white;
         }
 
@@ -103,14 +95,11 @@
             text-decoration: none;
             border-radius: 5px;
             font-size: 18px;
-            transition: 0.3s;
         }
 
         .btn:hover {
             background: #002b80;
         }
-
-        /* GENERAL SECTION */
 
         .section {
             padding: 70px 10%;
@@ -123,8 +112,6 @@
             font-size: 40px;
         }
 
-        /* ABOUT */
-
         .about-text {
             text-align: center;
             line-height: 1.9;
@@ -132,8 +119,6 @@
             max-width: 1000px;
             margin: auto;
         }
-
-        /* SERVICES */
 
         .services {
             display: grid;
@@ -147,11 +132,6 @@
             border-radius: 10px;
             text-align: center;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            transition: 0.3s;
-        }
-
-        .service-card:hover {
-            transform: translateY(-10px);
         }
 
         .service-card i {
@@ -164,8 +144,6 @@
             margin-bottom: 15px;
         }
 
-        /* GALLERY */
-
         .gallery {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -177,14 +155,7 @@
             height: 250px;
             object-fit: cover;
             border-radius: 10px;
-            transition: 0.3s;
         }
-
-        .gallery img:hover {
-            transform: scale(1.05);
-        }
-
-        /* CONTACT */
 
         .contact-container {
             background: white;
@@ -217,8 +188,6 @@
             background: #002b80;
         }
 
-        /* FOOTER */
-
         footer {
             background: #003399;
             color: white;
@@ -226,10 +195,7 @@
             padding: 20px;
         }
 
-        /* RESPONSIVE */
-
         @media(max-width:768px) {
-
             .hero-content h2 {
                 font-size: 35px;
             }
@@ -246,207 +212,132 @@
             .section-title {
                 font-size: 30px;
             }
-
         }
     </style>
-
 </head>
 
 <body>
 
-    <!-- HEADER -->
-
     <header>
-
         <h1>Tanzania Adventure Tour Guides</h1>
-
         <p>Explore the Beauty of Tanzania</p>
-
     </header>
 
-    <!-- NAVBAR -->
-
     <nav>
-
         <a href="#home">Home</a>
-
         <a href="#about">About Us</a>
-
         <a href="#services">Services</a>
-
         <a href="#gallery">Gallery</a>
-
         <a href="#contact">Contact</a>
-
     </nav>
 
-    <!-- HOME SECTION -->
-
     <section class="hero" id="home">
-
         <div class="hero-content">
-
             <h2>Welcome To Tanzania Adventure</h2>
-
-            <p>
-                Professional Tour Guiding Services Across Tanzania
-            </p>
-
-            <a href="#contact" class="btn">
-                Book Your Tour
-            </a>
-
+            <p>Professional Tour Guiding Services Across Tanzania</p>
+            <a href="#contact" class="btn">Book Your Tour</a>
         </div>
-
     </section>
-
-    <!-- ABOUT US -->
 
     <section class="section" id="about">
-
-        <h2 class="section-title">
-            About Us
-        </h2>
-
+        <h2 class="section-title">About Us</h2>
         <p class="about-text">
-
             Tanzania Adventure Tour Guides is a tourism company that provides professional and affordable tourism
-            services across Tanzania. We help local and international tourists visit famous tourist attractions such as
-            Serengeti National Park, Mount Kilimanjaro, Ngorongoro Crater, and Zanzibar beaches. Our mission is to
-            provide unforgettable travel experiences while promoting Tanzanian culture and wildlife.
-
+            services across Tanzania...
         </p>
-
     </section>
-
-    <!-- SERVICES -->
 
     <section class="section" id="services">
-
-        <h2 class="section-title">
-            Our Services
-        </h2>
+        <h2 class="section-title">Our Services</h2>
 
         <div class="services">
-
             <div class="service-card">
-
                 <i class="fa-solid fa-binoculars"></i>
-
                 <h3>Safari Tours</h3>
-
-                <p>
-                    Enjoy wildlife safaris in Serengeti and Ngorongoro National Parks.
-                </p>
-
+                <p>Enjoy wildlife safaris in Serengeti and Ngorongoro National Parks.</p>
             </div>
 
             <div class="service-card">
-
                 <i class="fa-solid fa-mountain"></i>
-
                 <h3>Mountain Climbing</h3>
-
-                <p>
-                    Professional climbing tours to Mount Kilimanjaro and Meru.
-                </p>
-
+                <p>Professional climbing tours to Mount Kilimanjaro and Meru.</p>
             </div>
 
             <div class="service-card">
-
                 <i class="fa-solid fa-car"></i>
-
                 <h3>Transport Services</h3>
-
-                <p>
-                    Airport pickup and comfortable transport services for tourists.
-                </p>
-
+                <p>Airport pickup and comfortable transport services for tourists.</p>
             </div>
 
             <div class="service-card">
-
                 <i class="fa-solid fa-people-group"></i>
-
                 <h3>Cultural Tourism</h3>
-
-                <p>
-                    Experience Tanzanian traditions, dances, and local food.
-                </p>
-
+                <p>Experience Tanzanian traditions, dances, and local food.</p>
             </div>
-
         </div>
-
     </section>
-
-    <!-- GALLERY -->
 
     <section class="section" id="gallery">
-
-        <h2 class="section-title">
-            Tourism Gallery
-        </h2>
+        <h2 class="section-title">Tourism Gallery</h2>
 
         <div class="gallery">
-
-            <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?q=80&w=1200&auto=format&fit=crop">
-
-            <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?q=80&w=1200&auto=format&fit=crop">
-
-            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200&auto=format&fit=crop">
-
-            <img src="https://images.unsplash.com/photo-1521295121783-8a321d551ad2?q=80&w=1200&auto=format&fit=crop">
-
-            <img src="https://images.unsplash.com/photo-1516939884455-1445c8652f83?q=80&w=1200&auto=format&fit=crop">
-
-            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop">
-
+            <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e">
+            <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+            <img src="https://images.unsplash.com/photo-1521295121783-8a321d551ad2">
+            <img src="https://images.unsplash.com/photo-1516939884455-1445c8652f83">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
         </div>
-
     </section>
 
-    <!-- CONTACT -->
-
+    <!-- CONTACT WITH WHATSAPP FORM -->
     <section class="section" id="contact">
-
-        <h2 class="section-title">
-            Contact Us
-        </h2>
+        <h2 class="section-title">Contact Us</h2>
 
         <div class="contact-container">
 
-            <form class="contact-form">
+            <form class="contact-form" onsubmit="sendMessage(event)">
 
-                <input type="text" placeholder="Enter Your Name" required>
+                <input type="text" id="name" placeholder="Enter Your Name" required>
 
-                <input type="email" placeholder="Enter Your Email" required>
+                <input type="email" id="email" placeholder="Enter Your Email" required>
 
-                <textarea rows="6" placeholder="Write Your Message">
-</textarea>
+                <textarea id="message" rows="6" placeholder="Write Your Message" required></textarea>
 
-                <button type="submit">
-                    Send Message
-                </button>
+                <button type="submit">Send Message</button>
 
             </form>
 
         </div>
-
     </section>
 
-    <!-- FOOTER -->
-
     <footer>
-
-        <p>
-
-            &copy; 2026 Tanzania Adventure Tour Guides | All Rights Reserved
-
-        </p>
-
+        <p>&copy; 2026 Tanzania Adventure Tour Guides | All Rights Reserved</p>
     </footer>
+
+    <!-- SCRIPT -->
+    <script>
+        function sendMessage(event) {
+            event.preventDefault();
+
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let message = document.getElementById("message").value;
+
+            let phone = "255682241914";
+
+            let text =
+                `Hello Tanzania Adventure Tour Guides
+
+Name: ${name}
+Email: ${email}
+Message: ${message}`;
+
+            let url = `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
+
+            window.open(url, "_blank");
+        }
+    </script>
 
 </body>
 
